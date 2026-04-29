@@ -16,5 +16,6 @@ public class ErrorValidationClass extends BaseTest {
         System.out.println("text "+ loginPage.wrongCredentials());
         Assert.assertEquals("Incorrect email password.",loginPage.wrongCredentials());
 
+
     }
 }
