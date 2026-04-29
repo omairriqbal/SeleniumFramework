@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite parallel = "tests" name = "Suite">
+    <listeners>
+        <listener class-name="Utils.Listener"/>
+    </listeners>
+    <test thread-count = "5" name = "Ecommerce">
+        <classes>
+            <class name = "com.qa.tests.EcommerceSite"/>
+        </classes>
+    </test>
+    <test thread-count = "5" name = "Error Validation">
+        <classes>
+            <class name = "com.qa.tests.ErrorValidationClass"/>
+        </classes>
+    </test>
+
+</suite>
