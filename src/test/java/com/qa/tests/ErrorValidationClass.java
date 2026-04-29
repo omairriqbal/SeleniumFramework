@@ -7,7 +7,9 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class ErrorValidationClass extends BaseTest {
-    @Test (retryAnalyzer = RetryListener.class)
+
+//    @Test (retryAnalyzer = RetryListener.class)
+    @Test
     public void main() throws InterruptedException, IOException {
 
          loginPage.loginApp("umair@gmail.com", "@Selenium");
